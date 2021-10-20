@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/jasonluxie/heroku-banana-test/issues"
   },
-  "homepage": "https://github.com/jasonluxie/heroku-banana-test#readme"
+  "homepage": "https://github.com/jasonluxie/heroku-banana-test#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
