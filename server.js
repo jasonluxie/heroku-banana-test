@@ -7,7 +7,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
-    res.send('<p> Hello! </p>')
+    res.send('<h1> Hello! </h1>')
 })
 
 app.listen(PORT, () => console.log(`Listening on PORT: PORT`));
